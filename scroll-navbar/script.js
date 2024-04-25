@@ -1,10 +1,12 @@
 const headerEl = document.querySelector(".header");
 const btnTopEl = document.querySelector("#scroll-top");
+const scrollEl = document.querySelector(".scroll");
 
 let previousScrollPosition = window.pageYOffset;
 
 function getHeaderP() {
   const currentScrollPosition = +window.pageYOffset.toFixed();
+  scrollEl.textContent = currentScrollPosition + "px";
 
   if (scrollY >= 50) {
     headerEl.style.padding = `20px 0`;

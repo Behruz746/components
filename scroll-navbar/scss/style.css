@@ -89,4 +89,19 @@ header nav {
   cursor: pointer;
   transform: scale(0);
   transition: all 0.3s ease;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px;
+  width: 70px;
+  height: 50px;
+  border: 0;
+  background-color: #cbc4a7;
+  color: #434141;
+  position: sticky;
+  left: 5%;
+  bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
